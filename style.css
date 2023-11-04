@@ -1,0 +1,751 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New";
+}
+
+/* Section 1 */
+
+.section1 {
+  padding: 1%;
+}
+
+.section1 > h1 {
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 52, 1),
+    rgba(205, 92, 51, 0.644),
+    rgb(255, 197, 89)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: rgba(9, 56, 195, 0.192) -3px 3px;
+}
+
+/* Section 2 */
+
+.section2 ul {
+  background-color: rgba(83, 83, 217, 0.747);
+  /* background-color: orangered; */
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 1.1rem;
+  margin: 0;
+}
+
+.section2 li > a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.section2-a {
+  font-size: 1.7rem;
+  height: 70vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.688),
+      rgba(0, 0, 0, 0.592)
+    ),
+    url(./hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  padding: 10rem 6rem 3rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+#bigtext {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.red-button {
+  height: 9vh;
+  width: 35vh;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(255, 98, 0);
+}
+
+/* Section 3 */
+
+.section3 {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.h4-gen {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.h1-gen {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.716);
+}
+
+.Lineup1-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10vh;
+}
+
+.Lineup1-photos p {
+  position: relative;
+  top: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+}
+
+.Band1-p {
+  background-image: url(./Band1.png);
+}
+
+.Band2-p {
+  background-image: url(./Band2.png);
+}
+
+.Band3-p {
+  background-image: url(./Band3.png);
+}
+
+.Band4-p {
+  background-image: url(./Band4.png);
+}
+
+.Band5-p {
+  background-image: url(./Band5.png);
+}
+
+.Band6-p {
+  background-image: url(./Band6.png);
+}
+
+.lineup-p {
+  background-size: cover;
+  height: 45vh;
+}
+
+.gen-button {
+  height: 7vh;
+  width: 20vh;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.322);
+  color: rgba(0, 0, 0, 0.384);
+}
+
+/* Section 4 */
+
+.section4-a,
+.section4-b {
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.section4-a img {
+  width: 50%;
+  height: 60vh;
+  float: left;
+  margin-right: 5%;
+}
+.section4-b img {
+  width: 50%;
+  height: 60vh;
+  float: right;
+  margin-left: 5%;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.692);
+  font-size: 2rem;
+}
+
+.section4 p {
+  color: rgba(0, 0, 0, 0.418);
+}
+.section4-a-1 {
+  padding: 5%;
+}
+.section4-b-1 {
+  padding: 5%;
+}
+
+/* Section 5 */
+
+.section5 {
+  text-align: center;
+}
+
+.section5 {
+  width: 75%;
+  margin: auto;
+}
+
+.sec5-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 6vh;
+  background-color: rgba(0, 0, 0, 0.575);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.sec5-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec5-list li {
+  margin-bottom: 5%;
+  font-size: 1.3rem;
+  list-style-type: none;
+  text-align: left;
+}
+
+.sec5-list span {
+  color: orange;
+}
+
+/* Section 6 */
+
+.section6,
+.section16 {
+  display: flex;
+  align-items: center;
+  background-color: orangered;
+  color: white;
+  font-size: 6rem;
+  padding-left: 10%;
+}
+
+.section6 p,
+.section16 p {
+  font-size: 1.6rem;
+  margin: 3%;
+}
+
+/* Section 7 */
+
+.section7 {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section7-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.img-size {
+  grid-column: span 2;
+}
+
+/* Section 8 */
+
+.section8 {
+  color: white;
+  background: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.082),
+      rgba(0, 0, 0, 0.89)
+    ),
+    url(./sec9.jpg);
+  background-size: contain;
+}
+
+.sub-section8 {
+  padding: 3%;
+  width: 45%;
+  font-size: 1.5rem;
+}
+
+/* Section 9 */
+
+.section9 {
+  background-color: rgba(0, 0, 0, 0.116);
+  padding: 7%;
+}
+
+.sub-section9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.big-div-sec9 {
+  padding: 7%;
+  grid-row: span 2;
+  background-color: white;
+}
+
+.sub-section9 img {
+  height: 40vh;
+}
+
+/* Section 10 */
+
+.section10 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.sub-section10 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.section10 img {
+  height: 30vh;
+  object-fit: cover;
+}
+.section10-a,
+.section10-b {
+  width: 30%;
+}
+
+/* Section 11 */
+
+.section11 {
+  color: white;
+  margin-top: 2%;
+  background: url(./party.jpg);
+  background-size: cover;
+}
+
+.sub-section11 {
+  padding: 3%;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.section11 h1,
+.section11 h4 {
+  color: whitesmoke;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Section 12 */
+
+.section12 {
+  background-color: rgba(128, 128, 128, 0.205);
+}
+
+.sub-section12 {
+  width: 75%;
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+}
+.sub-section12-a {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section12 ul {
+  list-style-type: none;
+}
+
+/* Section 13 */
+
+.section13 {
+  width: 60%;
+  margin: auto;
+  padding-top: 3%;
+}
+
+.section13 img {
+  padding: 3%;
+  margin-right: 3%;
+  float: left;
+  height: 30%;
+  width: 30%;
+}
+
+/* Section 14 */
+
+.section14 {
+  height: 122vh;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.section14-a img {
+  width: 50%;
+  height: 61vh;
+  float: left;
+  margin-right: 2%;
+}
+
+.section14-b img {
+  width: 50%;
+  height: 61vh;
+  float: right;
+  margin-left: 5%;
+}
+
+.section14 p {
+  color: rgba(0, 0, 0, 0.418);
+}
+
+.section14-a-1 h3 {
+  padding-top: 2%;
+}
+.section14-b-1 {
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
+.section14-b ul {
+  list-style-type: none;
+  margin-left: -2.5%;
+}
+
+/* Section 15 */
+
+.section15 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.section15-a {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  gap: 10px;
+}
+
+.section15-a-1 {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.section15-a-1 img {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Section 16 */
+/* Some Code added in section 6 */
+
+.section16 p {
+  font-size: 2rem;
+  letter-spacing: 0.6rem;
+}
+
+.section16 button {
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 40px;
+}
+
+/* Section 17 */
+
+.section17 {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section17a,
+.section17b {
+  padding: 5%;
+}
+
+/* Section 18 */
+
+.section18 {
+  height: 60vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.356),
+      rgba(0, 0, 0, 0.349)
+    ),
+    url("./video-image.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section18 i {
+  color: orangered;
+  font-size: 3rem;
+}
+
+/* Section 19 */
+
+.section19 {
+  background-color: rgba(128, 128, 128, 0.134);
+}
+.section19a {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section19 div {
+  padding: 3%;
+}
+
+/* Section 20 */
+
+.section20 {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.section20 > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section20 img {
+  height: 50vh;
+}
+
+.section20-a {
+  text-align: left;
+}
+
+.section20-a p {
+  margin-left: 8%;
+}
+
+.sec20-icon {
+  margin: 1%;
+  border-radius: 4px;
+  background-color: rgba(128, 128, 128, 0.212);
+  padding: 3%;
+}
+
+/* Section 21 */
+
+.section21-img {
+  height: 50vh;
+  margin-top: 4%;
+}
+
+/* Section 22 */
+
+.section22 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Section 23 */
+
+.section23 {
+  background-color: rgba(128, 128, 128, 0.212);
+}
+
+.sub-section23 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.sub-sub-section23 {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.section23-banner {
+  height: 60vh;
+  width: 50vh;
+  background-color: white;
+}
+
+.back-img {
+  height: 25vh;
+  background: linear-gradient(
+      to right,
+      rgba(255, 68, 0, 0.637),
+      rgba(255, 68, 0, 0.63)
+    ),
+    url(./Ph1.jpg);
+}
+
+.section23-banner div i {
+  font-size: 2.5rem;
+}
+
+.round-icon {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  width: 30%;
+  margin: auto;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -10%;
+}
+
+.section23 span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: orangered;
+}
+
+/* Section 24 */
+
+.section24 {
+  background-color: rgba(32, 18, 59, 0.877);
+}
+
+.section24 h1,
+.section24 h4 {
+  color: white;
+}
+.sub-section24 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.sub-sections-24 {
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  margin-top: 3%;
+  text-align: left;
+}
+
+.price-sec24 {
+  height: 15vh;
+  width: 15vh;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-weight: 700;
+}
+
+.section24 sub {
+  font-size: 2rem;
+}
+
+.section24-big-txt {
+  font-size: 1.2rem;
+}
+
+.section24 button {
+  scale: 1.2;
+}
+
+.btn-color {
+  color: white;
+  border: 1px solid white;
+}
+
+/* Section 25 */
+
+.section25 {
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+
+.section25 img {
+  object-fit: contain;
+}
+
+.section25-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* Section 26 */
+
+.section26 {
+  padding: 2%;
+  background-color: rgba(128, 128, 128, 0.212);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.sub-section26-a {
+  margin-left: 40%;
+}
+
+.sub-section26-b {
+  margin-left: 10%;
+}
+
+.sub-section26-b i {
+  margin: 1%;
+  background-color: rgba(128, 128, 128, 0.479);
+  padding: 1%;
+  border-radius: 4px;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.856);
+  font-size: 1.2rem;
+  padding: 2%;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  color: grey;
+}
